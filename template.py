@@ -25,7 +25,9 @@ list_of_files = [
     "research/trials.ipynb",
     "templates/index.html"
 
+
 ]
+
 
 for filepath in list_of_files:
     filepath = Path(filepath)
