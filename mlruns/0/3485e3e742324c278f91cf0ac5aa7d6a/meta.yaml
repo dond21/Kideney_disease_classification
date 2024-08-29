@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/3485e3e742324c278f91cf0ac5aa7d6a/artifacts
+end_time: 1724806954534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3485e3e742324c278f91cf0ac5aa7d6a
+run_name: gifted-squid-599
+run_uuid: 3485e3e742324c278f91cf0ac5aa7d6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724806944831
+status: 3
+tags: []
+user_id: vivek

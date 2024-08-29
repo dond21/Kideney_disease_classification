@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/f06093dcd7a14a1fac5907d599d4eba3/artifacts
+end_time: 1724804526233
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f06093dcd7a14a1fac5907d599d4eba3
+run_name: wise-shrimp-978
+run_uuid: f06093dcd7a14a1fac5907d599d4eba3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724804516504
+status: 3
+tags: []
+user_id: vivek

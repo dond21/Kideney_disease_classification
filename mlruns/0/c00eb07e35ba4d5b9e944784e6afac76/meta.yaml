@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/c00eb07e35ba4d5b9e944784e6afac76/artifacts
+end_time: 1724837071016
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c00eb07e35ba4d5b9e944784e6afac76
+run_name: masked-grub-508
+run_uuid: c00eb07e35ba4d5b9e944784e6afac76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724837060734
+status: 3
+tags: []
+user_id: vivek

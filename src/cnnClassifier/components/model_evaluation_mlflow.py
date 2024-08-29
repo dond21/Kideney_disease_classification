@@ -2,9 +2,15 @@ import tensorflow as tf
 from pathlib import Path
 import mlflow
 import mlflow.keras
+from mlflow.models.signature import ModelSignature, infer_signature
+from mlflow.types.schema import Schema, ColSpec
+from mlflow.types import DataType
 from urllib.parse import urlparse
 from cnnClassifier.entity.config_entity import EvaluationConfig
 from cnnClassifier.utils.common import read_yaml, create_directories,save_json
+import dagshub
+
+
 
 
 class Evaluation:
@@ -54,6 +60,10 @@ class Evaluation:
 
     
     def log_into_mlflow(self):
+
+        dagshub.init(repo_owner='dond21', repo_name='Kideney_disease_classification', mlflow=True)
+        mlflow.set_tracking_uri("https://dagshub.com/dond21/Kideney_disease_classification.mlflow")
+
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
@@ -62,6 +72,15 @@ class Evaluation:
             mlflow.log_metrics(
                 {"loss": self.score[0], "accuracy": self.score[1]}
             )
+
+            # example_input, _ = next(iter(self.valid_generator))
+            # example_output = self.model.predict(example_input)
+
+            # # Manually specify input and output schema for signature
+            # input_schema = Schema([ColSpec(DataType.float64, shape=example_input.shape[1:])])
+            # output_schema = Schema([ColSpec(DataType.float64, shape=example_output.shape[1:])])
+            # signature = ModelSignature(inputs=input_schema, outputs=output_schema)
+
             # Model registry does not work with file store
             if tracking_url_type_store != "file":
 

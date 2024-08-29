@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/cbf11dfbc88849389db93faf807c4470/artifacts
+end_time: 1724837483359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cbf11dfbc88849389db93faf807c4470
+run_name: righteous-newt-434
+run_uuid: cbf11dfbc88849389db93faf807c4470
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724837473526
+status: 3
+tags: []
+user_id: vivek

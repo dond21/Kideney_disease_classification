@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/5869f3c78f794d82bc0bf2aae6f49ce2/artifacts
+end_time: 1724804762352
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5869f3c78f794d82bc0bf2aae6f49ce2
+run_name: efficient-zebra-532
+run_uuid: 5869f3c78f794d82bc0bf2aae6f49ce2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724804752661
+status: 3
+tags: []
+user_id: vivek

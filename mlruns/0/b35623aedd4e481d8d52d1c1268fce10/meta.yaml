@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/b35623aedd4e481d8d52d1c1268fce10/artifacts
+end_time: 1724803611589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b35623aedd4e481d8d52d1c1268fce10
+run_name: crawling-skink-85
+run_uuid: b35623aedd4e481d8d52d1c1268fce10
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724803599967
+status: 3
+tags: []
+user_id: vivek

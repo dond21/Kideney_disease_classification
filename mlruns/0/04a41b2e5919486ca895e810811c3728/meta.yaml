@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Placement/ML/project_2/Kideney_disease_classification/mlruns/0/04a41b2e5919486ca895e810811c3728/artifacts
+end_time: 1724806571550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04a41b2e5919486ca895e810811c3728
+run_name: intelligent-duck-688
+run_uuid: 04a41b2e5919486ca895e810811c3728
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724806561358
+status: 3
+tags: []
+user_id: vivek
